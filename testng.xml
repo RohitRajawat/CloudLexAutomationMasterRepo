@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression Suite" parallel="methods" thread-count="3">
+
+    <listeners>
+        <listener class-name="TestRun.TestNgListeners"></listener>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"></listener>
+    </listeners>
+
+    <test name="MassTort test">
+        <classes>
+            <class name="TestRun.TestRunner"></class>
+        </classes>
+    </test>
+
+</suite>
