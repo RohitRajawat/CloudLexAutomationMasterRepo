@@ -38,7 +38,6 @@ Feature: Test the Add Lead Functionality
         Then Select the claimant choice as No
         And  add the memo details "This is the memo check"
         Then Close the browser
-         Then Close the browser
 
         Examples:
           |FName      |MName        |LName        |Email            |Email2             |ContactNum |  ContactNum2 |
