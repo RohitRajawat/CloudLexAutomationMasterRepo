@@ -37,6 +37,7 @@ Feature: Test the Add Lead Functionality
         And  select the another contact "<ContactNum2>"
         Then Select the claimant choice as No
         And  add the memo details "This is the memo check"
+    And  add the memo details "This is the memo check"
 
     Then Close the browser
 
