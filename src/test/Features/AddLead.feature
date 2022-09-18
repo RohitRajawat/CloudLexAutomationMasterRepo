@@ -23,7 +23,6 @@ Feature: Test the Add Lead Functionality
       And  user click on status dropdown
       And  check the status options and Select "Portal Invite Sent"
       And  Close the browser
-      And  Close the browser
 
   Scenario Outline:Check the Personal details
         When user check the title options and select "Esq."
